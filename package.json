@@ -1,0 +1,24 @@
+{
+  "name": "students-project",
+  "version": "1.0.0",
+  "description": "A fully functioning CRUD application with Node.js, Express.js and PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akglbahadr/Students-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akglbahadr/Students-Project/issues"
+  },
+  "homepage": "https://github.com/akglbahadr/Students-Project#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  }
+}
