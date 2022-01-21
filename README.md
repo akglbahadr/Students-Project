@@ -34,4 +34,4 @@ Sample request:
 `PUT /api/students/id`
 `DELETE /api/students/id`
 
-//PUT Only allows you to update the name.
+PUT Only allows you to update the name.
