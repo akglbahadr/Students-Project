@@ -18,6 +18,10 @@ Run the command to start the app with nodemon
 
 ## Endpoints
 `GET /api/students`
+`GET /api/students/id`
+`POST /api/students`
+`PUT /api/students/id`
+`DELETE /api/students/id`
 
 Request Payload
 ```
@@ -29,9 +33,5 @@ Sample request:
         "dob": "1995-08-24T21:00:00.000Z"
         }
 ``` 
-`GET /api/students/id`
-`POST /api/students`
-`PUT /api/students/id`
-`DELETE /api/students/id`
 
 PUT Only allows you to update the name.
