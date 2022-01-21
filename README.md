@@ -31,5 +31,7 @@ Sample request:
 ``` 
 `GET /api/students/id`
 `POST /api/students`
-`PUT /api/students/id` //Only allows to update the name.
+`PUT /api/students/id`
 `DELETE /api/students/id`
+
+//PUT Only allows you to update the name.
