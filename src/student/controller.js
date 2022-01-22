@@ -25,11 +25,15 @@ const addStudent = (req, res) => {
       res.send("Email already exists!");
     }
     //add student to db
-    pool.query(queries.addStudent, [name, email, age, dob], (err, results) => {
-      if (error) throw error;
-      res.status(201).send("Student added succesfully!");
-      console.log("Student Added!");
-    });
+    pool.query(
+      queries.addStudent,
+      [name, email, age, dob],
+      (error, results) => {
+        if (error) throw error;
+        res.status(201).send("Student added succesfully!");
+        console.log("Student Added!");
+      }
+    );
   });
 };
 
